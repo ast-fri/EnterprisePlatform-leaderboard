@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "participants": {
+        "agent": "GPT-4o"
+      },
+      "results": [
+        {
+          "pass_rate": 27.45,
+          "time_used": 112.3,
+          "max_score": 10
+        },
+        {
+          "pass_rate": 21.2,
+          "time_used": 104.8,
+          "max_score": 10
+        }
+      ]
+    }
+    
+  ]
+}
