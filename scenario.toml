@@ -1,16 +1,17 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019b8cfa-ed9a-7701-974a-65a5c7b238fb"
+env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT = "${AZURE_OPENAI_ENDPOINT}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
+name = "purple"
 env = {}
 
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
 
 [config]
-# Add your assessment config here
+tasks_file = "tasks.json"
+max_steps = 15
+mcp_config_path = "./mcp_configs_http.json"
+
+# Timeout for the entire assessment (in seconds)
+timeout = 1800  # 30 minutes
