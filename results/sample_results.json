@@ -2,21 +2,30 @@
   "results": [
     {
       "participants": {
-        "agent": "GPT-4o"
+        "agent": "Agent_A"
       },
       "results": [
-        {
-          "pass_rate": 27.45,
-          "time_used": 112.3,
-          "max_score": 10
-        },
-        {
-          "pass_rate": 21.2,
-          "time_used": 104.8,
-          "max_score": 10
-        }
+        { "pass_rate": 87.45, "time_used": 112.3, "max_score": 10 },
+        { "pass_rate": 91.2,  "time_used": 104.8, "max_score": 10 }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "Agent_B"
+      },
+      "results": [
+        { "pass_rate": 78.6, "time_used": 130.5, "max_score": 10 },
+        { "pass_rate": 85.9, "time_used": 118.0, "max_score": 10 }
+      ]
+    },
+    {
+      "participants": {
+        "agent": "Agent_C"
+      },
+      "results": [
+        { "pass_rate": 92.1, "time_used": 99.7, "max_score": 10 },
+        { "pass_rate": 89.3, "time_used": 110.4, "max_score": 10 }
       ]
     }
-    
   ]
 }
