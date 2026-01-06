@@ -14,4 +14,4 @@ max_steps = 15
 mcp_config_path = "./mcp_configs_http.json"
 
 # Timeout for the entire assessment (in seconds)
-timeout = 1800  # 30 minute
+timeout = 1800  # 30 minutes
