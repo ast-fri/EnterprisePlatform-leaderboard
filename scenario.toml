@@ -4,7 +4,7 @@ env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT 
 
 [[participants]]
 agentbeats_id = "019b8dca-139f-7971-b753-5070f4422d4a"
-name = "Enterprise Purple Agent"
+name = "EnterprisePurpleAgent"
 env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT = "${AZURE_OPENAI_ENDPOINT}", LOG_LEVEL = "INFO" }
 
 
