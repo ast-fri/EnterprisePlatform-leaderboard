@@ -3,9 +3,9 @@ agentbeats_id = "019b8cfa-ed9a-7701-974a-65a5c7b238fb"
 env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT = "${AZURE_OPENAI_ENDPOINT}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = "019abad5-ee3e-7680-bd26-ea0415914743"
-name = "pro_debater"
-env = {}
+agentbeats_id = "019b8dca-139f-7971-b753-5070f4422d4a"
+name = "Enterprise Purple Agent"
+env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT = "${AZURE_OPENAI_ENDPOINT}", LOG_LEVEL = "INFO" }
 
 
 [config]
