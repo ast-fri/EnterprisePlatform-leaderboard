@@ -6,8 +6,8 @@
     {
       "metadata": {
         "purple_agent_url": "http://enterprisepurpleagent:9009/",
-        "evaluation_timestamp": "2026-01-06 05:08:50",
-        "total_time_seconds": 9.13
+        "evaluation_timestamp": "2026-01-15 07:00:37",
+        "total_time_seconds": 11.38
       },
       "aggregate_metrics": {
         "num_tasks": 1,
@@ -22,18 +22,18 @@
           "task_index": 0,
           "task_query": "Send a Hi messgae to suraj.nagaje",
           "success": true,
-          "time_used": 6.13,
+          "time_used": 9.24,
           "num_steps": 1,
-          "final_answer": "The message \"Hi\" has been successfully sent to @suraj.nagaje.",
+          "final_answer": "The message 'Hi' has been successfully sent to @suraj.nagaje.",
           "tool_trace": [
             {
-              "step": 0,
+              "step": 1,
               "tool": "send_direct_message",
               "args": {
                 "username": "suraj.nagaje",
                 "message": "Hi"
               },
-              "result": "{\n  \"success\": true,\n  \"message\": \"Message sent to @suraj.nagaje: \\\"Hi\\\"\",\n  \"data\": {\n    \"ts\": 1767676125056,\n    \"channel\": \"6BBQsLK5LRchYAM8fGKsJemPaPcnMctcja\",\n    \"message\": {\n      \"alias\": \"\",\n      \"msg\": \"Hi\",\n      \"attachments\": [],\n      \"parseUrls\": true,\n      \"groupable\": false,\n      \"ts\": \"2026-01-06T05:08:45.021Z\",\n      \"u\": {\n        \"_id\": \"6BBQsLK5LRchYAM8f\",\n        \"username\": \"surya.reddy\",\n        \"name\": \"Surya Reddy\"\n      },\n      \"rid\": \"6BBQsLK5LRchYAM8fGKsJemPaPcnMctcja\",\n      \"_id\": \"PAu4LrRRRrwZDnxxF\",\n      \"_updatedAt\": \"2026-01-06T05:08:45.034Z\",\n      \"urls\": [],\n      \"mentions\": [],\n      \"channels\": [],\n      \"md\": [\n        {\n          \"type\": \"PARAGRAPH\",\n          \"value\": [\n            {\n              \"type\": \"PLAIN_TEXT\",\n              \"value\": \"Hi\"\n            }\n          ]\n        }\n      ]\n    },\n    \"success\": true\n  }\n}"
+              "result": "{\n  \"success\": true,\n  \"message\": \"Message sent to @suraj.nagaje: \\\"Hi\\\"\",\n  \"data\": {\n    \"ts\": 1768460433500,\n    \"channel\": \"6BBQsLK5LRchYAM8fGKsJemPaPcnMctcja\",\n    \"message\": {\n      \"alias\": \"\",\n      \"msg\": \"Hi\",\n      \"attachments\": [],\n      \"parseUrls\": true,\n      \"groupable\": false,\n      \"ts\": \"2026-01-15T07:00:33.441Z\",\n      \"u\": {\n        \"_id\": \"6BBQsLK5LRchYAM8f\",\n        \"username\": \"surya.reddy\",\n        \"name\": \"Surya Reddy\"\n      },\n      \"rid\": \"6BBQsLK5LRchYAM8fGKsJemPaPcnMctcja\",\n      \"_id\": \"gFp9vNBdhCGPmnb79\",\n      \"_updatedAt\": \"2026-01-15T07:00:33.468Z\",\n      \"urls\": [],\n      \"mentions\": [],\n      \"channels\": [],\n      \"md\": [\n        {\n          \"type\": \"PARAGRAPH\",\n          \"value\": [\n            {\n              \"type\": \"PLAIN_TEXT\",\n              \"value\": \"Hi\"\n            }\n          ]\n        }\n      ]\n    },\n    \"success\": true\n  }\n}"
             }
           ],
           "judge": {

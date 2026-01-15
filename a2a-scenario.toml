@@ -1,0 +1,13 @@
+[green_agent]
+endpoint = "http://green-agent:9009"
+
+[[participants]]
+role = "EnterprisePurpleAgent"
+endpoint = "http://EnterprisePurpleAgent:9009"
+agentbeats_id = "019b8dca-139f-7971-b753-5070f4422d4a"
+
+[config]
+tasks_file = "tasks.json"
+max_steps = 15
+mcp_config_path = "./mcp_configs_http.json"
+timeout = 1800
