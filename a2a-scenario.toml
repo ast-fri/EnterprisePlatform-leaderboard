@@ -1,10 +1,12 @@
 [green_agent]
 endpoint = "http://green-agent:9009"
+env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT = "${AZURE_OPENAI_ENDPOINT}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 role = "EnterprisePurpleAgent"
 endpoint = "http://EnterprisePurpleAgent:9009"
 agentbeats_id = "019b8dca-139f-7971-b753-5070f4422d4a"
+env = { AZURE_OPENAI_API_KEY = "${AZURE_OPENAI_API_KEY}", AZURE_OPENAI_ENDPOINT = "${AZURE_OPENAI_ENDPOINT}", LOG_LEVEL = "INFO" }
 
 [config]
 tasks_file = "tasks.json"
